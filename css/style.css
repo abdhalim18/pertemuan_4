@@ -1,0 +1,93 @@
+body{
+    background-color: eaeaea;
+}
+.container{
+    width: 800px;
+    margin: auto;
+    background-color: white;
+}
+.header h1{
+    font-size: 40px;
+    margin-left: 20px;
+}
+.header ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.cover{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    background-image: url(img/darul_ulum.png);
+    margin-bottom: 20px;
+}
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: rgb(148, 148, 148);
+    position: absolute;
+    height: 70%;
+    overflow: auto;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color: #0a7500;
+    color: white;
+  }
+  
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+
+.beranda {
+    margin-left: 200px;
+    padding: 10px;
+}
+.beranda h1{
+    margin:auto;
+    margin-top: 50px;
+}
+.beranda h4{
+    font-size: 15px;
+}
+.beranda p{
+    text-align: justify;
+}
+
+
+.footer{
+    background-color: white;
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+}
+.footer p{
+    font-size: 18px;
+}
